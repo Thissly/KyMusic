@@ -16,7 +16,7 @@
 ### Commands 🛠
 #### For all in group
 - `/play` - reply to youtube url or song file to play song
-- `/vplay` - reply to youtube url or song file to play song
+- `/vplay` - reply to youtube url or video file to play video
 - `/song <song name>` - download songs you want quickly
 - `/search <query>` - search videos on youtube with details
 - `/lyrics <query>` - search lyrics from web
