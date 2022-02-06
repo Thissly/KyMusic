@@ -69,7 +69,7 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ ​📚", url="https://telegra.ph/ҡʏʏ-ᴍᴇᴍ-ᴇx-01-21-2"),
         ],
         [
-            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com/muhammadrizky16/KyyMusic"),
+            InlineKeyboardButton("🌐 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🌐", url="https://github.com"),
         ],
     ]
 )
@@ -140,7 +140,7 @@ async def play(_, message: Message):
             text=f"""
 **✨ Selamat Datang {rpk}!
 
-💬 [{BOT_NAME}](tg://user?id=2129034376) memungkinkan anda untuk memutar musik pada grup melalui obrolan suara yang baru di Telegram!
+💬 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) memungkinkan anda untuk memutar musik pada grup melalui obrolan suara yang baru di Telegram!
 
 💡 Untuk Mengetahui Semua Perintah Bot Dan Bagaimana Cara Kerja Nya Dengan Menekan Tombol » 📚 ᴄᴏᴍᴍᴀɴᴅ​!**
 
@@ -168,8 +168,6 @@ async def play(_, message: Message):
 
 ⏳ **Durasi:** {round(x["duration"] / 60)} Mins
 👀 **Ditonton:** `{x["view_count"]}`
-👍 **Suka:** `{x["like_count"]}`
-👎 **Tidak suka:** `{x["dislike_count"]}`
 ⭐️ **Peringkat Rata-rata:** {x["average_rating"]}
 🎥 **Nama channel:** {x["uploader"]}
 📎 **Channel Link:** [Kunjungi Dari Sini]({x["channel_url"]})
