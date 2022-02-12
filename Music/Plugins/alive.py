@@ -52,7 +52,7 @@ async def alive(client, message):
     uptime = await _human_time_duration(int(uptime_sec))
     await client.send_photo(message.chat.id,
         photo=f"{BOT_IMG}",
-        caption=f"""**Holla {message.from_user.mention()}.**
+        caption=f"""**Hallo {message.from_user.mention()}.**
 ✨ **I'm Working Properly**
 ✨ **Bot : Latest**
 ✨ **Bot Info : Online**
@@ -60,6 +60,7 @@ async def alive(client, message):
 ✨ **Pyrogram Version : `{pyrover}`**
 ✨ **PyTgCalls Version: `{pytover.__version__}`**
 ✨ **Using New Version**
+
 **Thanks For Using Me**""",
         reply_markup=InlineKeyboardMarkup(
             [
