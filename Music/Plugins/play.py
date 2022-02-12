@@ -519,7 +519,7 @@ Saya perlu menjadi admin dengan beberapa izin:
         await message.reply_photo(
             photo=thumb,
             caption=f"""
-<b>💡 Ditambahkan ke antrian</b> {position}
+<b>💡 Ditambahkan ke antrian {position}</b>
 
 <b>🏷️ Nama: [{title[:25]}]({link})</b>
 <b>⏱️ Durasi:</b> {duration}
@@ -558,7 +558,7 @@ Saya perlu menjadi admin dengan beberapa izin:
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
             caption=f"""
-<b>💡 Sedang memutar...</b>
+<b>💡 Sedang memutar lagu...</b>
 
 <b>🏷 Nama:</b> [{title[:25]}]({link})
 <b>⏱️ Durasi:</b> {duration}
@@ -710,7 +710,7 @@ async def startyuplay(_, CallbackQuery):
         m = await CallbackQuery.message.reply_photo(
             photo=thumb,
             caption=f"""
-<b>💡 Ditambahkan ke antrian</b> {position}
+<b>💡 Ditambahkan ke antrian {position}</b>
 
 <b>🏷 Nama:</b>[{title[:25]}]({url})
 <b>⏱️ Durasi:</b> {duration}
@@ -739,7 +739,7 @@ async def startyuplay(_, CallbackQuery):
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
             caption=f"""
-<b>💡 Sedang memutar...</b>
+<b>💡 Sedang memutar lagu...</b>
 
 <b>🏷 Nama:</b> [{title[:25]}]({url})
 <b>⏱️ Durasi:</b> {duration}
