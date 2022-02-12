@@ -116,7 +116,6 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""
 Terima kasih telah memasukkan saya di {message.chat.title}.
-Musik itu hidup.
 
 Untuk bantuan silahkan klik tombol dibawah.
 """,
