@@ -209,7 +209,9 @@ play_list_keyboard = InlineKeyboardMarkup(
                 [
                     InlineKeyboardButton(
                         "➕ ᴜsᴇʀ ᴘʟᴀʏʟɪsᴛ​", callback_data="P_list"
-                    ),
+                    )
+                ],
+                [
                     InlineKeyboardButton(
                         "➕ ɢʀᴏᴜᴘ ᴘʟᴀʏʟɪsᴛ​​", callback_data="G_list"
                     )
