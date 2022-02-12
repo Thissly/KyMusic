@@ -521,7 +521,7 @@ Saya perlu menjadi admin dengan beberapa izin:
             caption=f"""
 <b>💡 Ditambahkan ke antrian {position}</b>
 
-<b>🏷️ Nama: [{title[:25]}]({link})</b>
+<b>🏷️ Nama:</b> [{title[:25]}]({link})
 <b>⏱️ Durasi:</b> {duration}
 <b>🎧 Atas permintaan: </b>{checking}
 """,
@@ -558,7 +558,7 @@ Saya perlu menjadi admin dengan beberapa izin:
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
             caption=f"""
-<b>💡 Sedang memutar lagu...</b>
+<b>💡 Sedang memutar ...</b>
 
 <b>🏷 Nama:</b> [{title[:25]}]({link})
 <b>⏱️ Durasi:</b> {duration}
@@ -712,7 +712,7 @@ async def startyuplay(_, CallbackQuery):
             caption=f"""
 <b>💡 Ditambahkan ke antrian {position}</b>
 
-<b>🏷 Nama:</b>[{title[:25]}]({url})
+<b>🏷 Nama:</b> [{title[:25]}]({url})
 <b>⏱️ Durasi:</b> {duration}
 <b>💡</b> [More Information](https://t.me/{BOT_USERNAME}?start=info_{id})
 <b>🎧 Atas permintaan:</b> {checking}
@@ -739,7 +739,7 @@ async def startyuplay(_, CallbackQuery):
             photo=thumb,
             reply_markup=InlineKeyboardMarkup(buttons),
             caption=f"""
-<b>💡 Sedang memutar lagu...</b>
+<b>💡 Sedang memutar ...</b>
 
 <b>🏷 Nama:</b> [{title[:25]}]({url})
 <b>⏱️ Durasi:</b> {duration}
