@@ -329,7 +329,7 @@ Gagal mengunduh video ini.
                     reply_markup=InlineKeyboardMarkup(buttons),
                     caption=(
                         f"""
-<b>⏭️ Melewati lagu permintaa {rpk}</b>
+<b>⏭️ Melewati lagu permintaan {rpk}</b>
 
 <b>🏷 Nama: </b>[{title[:25]}]({url})
 <b>⏱️ Durasi: :</b> {duration}
@@ -374,7 +374,7 @@ Gagal mengunduh video ini.
                     photo=f"downloads/{_chat_}final.png",
                     reply_markup=InlineKeyboardMarkup(buttons),
                     caption=f"""
-<b>⏭️ Melewati lagu permintaa: {rpk}</b>
+<b>⏭️ Melewati lagu permintaan {rpk}</b>
 
 <b>🏷️ Nama:</b> {title}
 <b>⌚ Durasi</b> {duration}
