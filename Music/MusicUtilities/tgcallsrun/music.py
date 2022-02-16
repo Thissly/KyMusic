@@ -189,7 +189,7 @@ Downloading....
                 photo=f"downloads/{_chat_}final.png",
                 reply_markup=InlineKeyboardMarkup(buttons),
                 caption=f"""
-<b>▶️ Sekarang memutar:</b> {title}
+<b>▶️ Sekarang memutar:</b> {title[:25]}
 <b>⌚ Durasi:</b> {duration}
 <b>🎧 Atas permintaan:</b> {username}
 """,
