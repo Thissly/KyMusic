@@ -101,7 +101,7 @@ async def stream_end_handler(_, u: Update):
         elif op == 2:
             await app.send_message(
                 chat_id,
-                f"**❌ terjadi kesalahan\n\n» Membersihkan antrian dan keluar dari obrolan video.**",
+                f"**❌ Terjadi kesalahan\n\n» Membersihkan antrian dan keluar dari obrolan video.**",
             )
         else:
             await app.send_message(
