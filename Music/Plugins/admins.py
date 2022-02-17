@@ -117,7 +117,7 @@ async def pause_cmd(_, message):
         return await message.reply_text("Saya tidak berpikir jika ada sesuatu yang diputar di obrolan suara")   
     await music_off(chat_id)
     await music.pytgcalls.pause_stream(chat_id)
-    await message.reply_text(f"🎧 Obrolan Suara Dijeda oleh {checking}!")
+    await message.reply_text(f"**🎧 Obrolan Suara Dijeda oleh {checking}!**")
     
 @app.on_message(filters.command(["resume", f"resume@{BOT_USERNAME}", "rs"]))
 async def stop_cmd(_, message): 
