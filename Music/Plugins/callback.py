@@ -376,7 +376,7 @@ Gagal mengunduh video ini.
                     caption=f"""
 <b>⏭️ Melewati lagu permintaan {rpk}</b>
 
-<b>🏷️ Nama:</b> {title}
+<b>🏷️ Nama:</b> {title[:25]}
 <b>⌚ Durasi</b> {duration}
 <b>🎧 Atas permintaan:</b> {username}
 """,
