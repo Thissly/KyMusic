@@ -300,7 +300,7 @@ async def stop_cmd(_, message):
 
 <b>🏷️ Nama:</b> {title[:25]}...
 <b>⏱️ Durasi:</b> {duration}
-<b>🎧 Atas permintaan</b> {username}
+<b>🎧 Atas permintaan:</b> {username}
 """,
                 )
                 return
