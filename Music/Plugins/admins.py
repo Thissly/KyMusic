@@ -298,7 +298,7 @@ async def stop_cmd(_, message):
                     caption=f"""
 <b>⏭️ Melewati lagu</b>
 
-<b>🏷️ Nama:</b> {title}
+<b>🏷️ Nama:</b> {title[:25]}
 <b>⏱️ Durasi:</b> {duration}
 <b>🎧 Atas permintaan</b> {username}
 """,
