@@ -523,7 +523,7 @@ Saya perlu menjadi admin dengan beberapa izin:
 
 <b>🏷️ Nama:</b> [{title[:25]}]({link})
 <b>⏱️ Durasi:</b> {duration}
-<b>🎧 Atas permintaan: </b>{checking}
+<b>🎧 Atas permintaan:</b> {checking}
 """,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
