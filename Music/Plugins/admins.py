@@ -310,5 +310,5 @@ async def reload(_, message):
     chat_id = message.chat.id
     await _.send_message(
     chat_id,
-    "✅ Bot berhasil di mulai ulang\n\n✅ Daftar admin telah di perbarui"
+    "✅ **Bot berhasil di mulai ulang**\n\n✅ **Daftar admin di perbarui**"
 )
